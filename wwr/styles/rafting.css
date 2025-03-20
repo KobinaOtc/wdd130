@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #17bebb;
+    --primary-color-trans: #17bebbcb;
+    --secondary-color: #2E282A;
+    --accent-color-one: #E8C547;
+    --accent-color-two: #BF0603;
+    --text-color: #161616;
+    --heading-fonts: "Racing Sans One", sans-serif;
+    --text-fonts: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: var(--text-fonts);
+    font-size: 1.1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: var(--heading-fonts);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    font-family: var(--text-fonts);
+    color: var(--text-color);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: var(--heading-fonts);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+main {
+    margin: 0 5vw;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    display: inline;
+    margin-right: 33%;
+}
+
+footer img {
+    width: 2rem;
+    display: inline;
+}
+
+
+/* class declarations */
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: var(--primary-color-trans);
+    top: 10%;
+}
+
+.hero article img {
+    width: 15vw;
+    float: right;
+}
+
+.hero article p {
+    padding: 2.4% 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 30%;
+    padding: 10px;
+    margin: 10px 45px;
+    background-color: var(--primary-color-trans);
+}
