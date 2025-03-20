@@ -1,0 +1,30 @@
+# Colors ========================================================
+
+Primay-color: #17BEBB
+Secondary-color: #2E282A
+Accent1-color: #E8C547
+Accent2-color: #BF0603
+Accent3-color: #5C80BC
+
+Pallet url: https://coolors.co/17bebb-2e282a-e8c547-5c80bc-bf0603
+# ===============================================================
+
+# Fonts =========================================================
+Paragaph Fonts: Inter
+Css Import: @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+Css Class: .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Header Fonts: Racing Sans One
+Css Import: @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+Css class: .racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+# ===============================================================
