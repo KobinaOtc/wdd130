@@ -20,9 +20,6 @@ a {
     font-size: 1.1rem;
 }
 
-footer a {
-    text-decoration: none;
-}
 
 h1 {
     font-size: 3rem;
@@ -52,6 +49,10 @@ main {
 main img {
     width: 100%;
     height: auto;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 footer p {
