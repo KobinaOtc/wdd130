@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A poll-form for testing">
+    <meta name="author" content="Kobina Ochere">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Safari">Safari</option>
+                    </select>
+                </div>
+                <div class="form-item column2">
+                    <label for="pet">
+                        Do you have a household pet?
+                        <!-- <label for="Dog">Dog</label>
+                        <input type="checkbox" id="Cat" name="pet">
+                        <label for="Cat">Cat</label>
+                        <input type="checkbox" id="Hamster" name="pet">
+                        <label for="Hamster">Hamster</label>
+                        <input type="checkbox" id="None" name="pet">
+                        <label for="None">None of the above</label> -->
+                    </label>
+                    <input type="checkbox" id="Dog" name="pet">
+                </div>
+                <div class="form-item">
+                    <label for="feedback">
+                        List the places you have lived.
+                    </label>
+                    <textarea placeholder="Text here" id="feedback" name="feedback" rows="4"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
