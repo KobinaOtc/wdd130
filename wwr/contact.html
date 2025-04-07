@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="../week05/styles/poll-form.css">
 </head>
 <body>
     <header class="header-grid">
@@ -78,22 +79,29 @@
                         <label for="useremail">Email</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
+                    <label for="purpose">The Purpose Of The Message</label>
                     <div class="form-item column2">
-                        <label for="useremail">The Purpose Of The Message</label>
-                        <input type="radio" id="general" name="general">
-                        <label for="useremail">General Inquiry</label>
-                        <input type="radio" id="reservation" name="reservation">
-                        <label for="useremail">Reservation Question</label>
-                        <input type="radio" id="website" name="website">
-                        <label for="useremail">Website Suggestion</label>                        
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="general" name="purpose">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="purpose">
+                        <label for="website">Website Suggestion</label>                        
+                        <input type="radio" id="website" name="purpose">
                     </div>
 
                     <div class="form-item">
                         <label for="feedback">
-                            List the places you have lived.
+                            Message
                         </label>
                         <textarea placeholder="Text here" id="feedback" name="feedback" rows="4"></textarea>
                     </div>
+                    <div class="form-item column2">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="pet">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+                <button type="submit">Send</button>
                 </fieldset>
             </form>
         </section>
@@ -110,6 +118,9 @@
             </a>
             <a href="https://www.instagram.com/" target="_blank">
                 <img src="images/instagram_icon.svg" alt="instagram icon">
+            </a>
+            <a href="https://app.moqups.com/iyAMo0QcDWPqhfEiNspPrWZaYPN9yN2j/view/page/ad12de680" target="_blank">
+                <img src="images/Moqups.svg" alt="mockup location">
             </a>
         </div>
     </footer>
