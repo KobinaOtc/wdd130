@@ -35,21 +35,27 @@
                 </p>
             </article>
         </div>
-        <section class="title-section-grid">
-            <ul>
-                <li>Address: 742 Evergreen Terrace  
-                    Springfield, IL 62704  
-                    USA </li>
-                <li>Phone Number: (217) 555-0132</li>
-                <li>Email: jordan.miller84@examplemail.com</li>
-                <li>
-                    Location: 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7935.252417398406!2d0.3711431913591338!3d6.045912983529933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1020ebe650217225%3A0x73703fdaebacde1!2sCashew%20Village%20Lodge!5e0!3m2!1sen!2sgh!4v1743473127357!5m2!1sen!2sgh" width="400" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </li>
-            </ul>
+        <section class="">
+            <div class="display-flex">
+                <div class="text-div-flex">
+                    <div>
+                        <h2>Illinois, USA</h2>
+                    </div>
+                    <div>
+                        <p>742 Evergreen Terrace  
+                            Springfield, IL 62704  
+                            USA </p>
+                        <p>Phone: (217) 555-0132</p>
+                        <p>Email: jordan.miller84@examplemail.com</p>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7935.252417398406!2d0.3711431913591338!3d6.045912983529933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1020ebe650217225%3A0x73703fdaebacde1!2sCashew%20Village%20Lodge!5e0!3m2!1sen!2sgh!4v1743473127357!5m2!1sen!2sgh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
 
-        <section class="adventure-grid">
+        <section class="adventure-grid contact-page">
             <h2>
                 Happy To Serve 
             </h2>
@@ -75,35 +81,41 @@
             </figure>
         </section>
 
-        <section>
+        <section class="form-section">
             <form>
                 <fieldset>
-                    <legend>Contact Information</legend>
-                    <div class="form-item column2">
+                    <h2>Send Us A Message</h2>
+                    <div class="">
                         <label for="fullname">User Name</label>
                         <input type="text" id="fullname" name="fullname">
                     </div>
-                    <div class="form-item column2">
+                    <div class="">
                         <label for="useremail">Email</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
                     <label for="purpose">The Purpose Of The Message</label>
-                    <div class="form-item column2">
-                        <label for="general">General Inquiry</label>
-                        <input type="radio" id="general" name="purpose">
-                        <label for="reservation">Reservation Question</label>
-                        <input type="radio" id="reservation" name="purpose">
-                        <label for="website">Website Suggestion</label>                        
-                        <input type="radio" id="website" name="purpose">
+                    <div class="radio-div">
+                        <div>
+                            <input type="radio" id="general" name="purpose">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="purpose">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="website" name="purpose">
+                            <label for="website">Website Suggestion</label>                        
+                        </div>
                     </div>
 
-                    <div class="form-item">
+                    <div class="">
                         <label for="feedback">
                             Message
                         </label>
                         <textarea placeholder="Text here" id="feedback" name="feedback" rows="4"></textarea>
                     </div>
-                    <div class="form-item column2">
+                    <div class="radio-div2">
                         <input type="checkbox" id="subscribe" name="subscribe">
                         <label for="pet">
                             Please subscribe me to the monthly newsletter

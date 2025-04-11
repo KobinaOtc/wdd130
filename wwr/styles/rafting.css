@@ -20,6 +20,18 @@ a {
     font-size: 1.1rem;
 }
 
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+
+
 
 h1 {
     font-size: 3rem;
@@ -28,7 +40,7 @@ h1 {
     text-align: center;
 }
 
-p {
+p, label, figcaption {
     font-size: 1rem;
     font-family: var(--text-fonts);
     color: var(--text-color);
@@ -141,4 +153,78 @@ footer img {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.contact-page {
+    padding: 8rem 0;
+}
+
+.contact-page h2 {
+    padding-bottom: 4rem;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.display-flex p {
+    text-align: left;
+    padding: 2rem 0 0 0;
+}
+
+.display-flex h2 {
+    padding: 0 0 9rem 0;
+}
+
+.text-div-flex {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.display-flex iframe {
+    width: 56vw;
+    height: 56vh;
+    margin: 0 14px;
+}
+
+/* form styling */
+
+.form-section {
+    margin: 0 24%;
+}
+
+.form-section fieldset {
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: var(--primary-color-trans);
+    border: none;
+}
+
+.form-section h2 {
+    padding-bottom: 2.8rem;
+}
+
+.form-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label, .form-section fieldset label {
+    text-align: left;
+    padding-bottom: 0.6rem;
+}
+
+.form-section input {
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+.radio-div2, .radio-div div {
+    flex-direction: row !important;
+}
+
+textarea {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
